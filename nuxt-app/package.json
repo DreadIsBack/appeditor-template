@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.8",
+    "pinia": "^2.0.13",
+    "primeicons": "^5.0.0",
+    "primevue": "^3.12.5"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^0.31.6",
+    "@unocss/transformer-directives": "^0.31.6",
+    "nuxt": "3.0.0-rc.1"
+  }
+}

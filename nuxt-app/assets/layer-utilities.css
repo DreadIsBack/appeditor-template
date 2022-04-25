@@ -1,0 +1,106 @@
+
+.w-screen-sm { width: 640px; }
+.w-screen-md { width: 768px; }
+.w-screen-lg { width: 1024px; }
+.w-screen-xl { width: 1280px; }
+.w-screen-2xl { width: 1536px; }
+
+.kl-container {
+  @apply w-full lg:w-screen-lg mx-auto px-3;
+}
+
+/* TODO why this need? */
+.kl-app-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
+/* Styles which exists only in bootstrap.css
+{ */
+.display-1 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 5rem;
+  }
+}
+
+.display-2 {
+  font-size: calc(1.575rem + 3.9vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-2 {
+    font-size: 4.5rem;
+  }
+}
+
+.display-3 {
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+}
+
+.display-4 {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 3.5rem;
+  }
+}
+
+.display-5 {
+  font-size: calc(1.425rem + 2.1vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 3rem;
+  }
+}
+
+.display-6 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-6 {
+    font-size: 2.5rem;
+  }
+}
+/* } */
+
+
+/* Other */
+
+.kl-bg-add {
+  background-color: rgb(170, 255, 170);
+}
+
+.kl-bg-remove {
+  background-color: rgb(255, 170, 170);
+}
+
+.kl-bg-change {
+  background-color: #fff3cd;
+}
+
+.kl-ts-2 {
+  font-size: 2rem;
+}

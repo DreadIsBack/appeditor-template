@@ -1,0 +1,13 @@
+
+.kl-content-block {
+  @apply mb-5 p-2 md:p-5 border-2 border-color-gray-200 rounded-lg shadow-lg;
+}
+
+.kl-icon-only-button-fixed-size {
+  width: 2.4rem;
+  height: 2.6rem;
+}
+
+.kl-column-numbers {
+  width: 3rem;
+}
